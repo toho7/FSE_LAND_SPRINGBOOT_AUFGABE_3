@@ -11,6 +11,6 @@ public class HelloController {
     //@RequestMapping(value = "/", method = RequestMethod.GET)
     @GetMapping("/") // kann so direkt verwendet werden
     public String helloWorld() {
-        return "Welcome to Daily Code Buffer";
+        return "Welcome to Daily Code Buffer.";
     }
 }
