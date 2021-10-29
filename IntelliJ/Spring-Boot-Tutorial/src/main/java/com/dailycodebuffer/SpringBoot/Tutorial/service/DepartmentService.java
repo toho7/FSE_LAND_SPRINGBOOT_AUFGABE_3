@@ -9,5 +9,7 @@ public interface DepartmentService {
 
     public List<Department> fetchDepartmentList();
 
-    Department fetchDepartmentById(Long departmentId);
+    public Department fetchDepartmentById(Long departmentId);
+
+    public void deleteDepartmentById(Long departmentId);
 }
